@@ -1,0 +1,1117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<types>
+    <settings>
+        <add_resized_images_to_library>0</add_resized_images_to_library>
+        <register_translations_on_import>1</register_translations_on_import>
+        <images_remote>0</images_remote>
+        <images_remote_cache_time>36</images_remote_cache_time>
+        <help_box>by_types</help_box>
+    </settings>
+    <groups>
+        <group>
+            <ID>7</ID>
+            <post_content>Enter the URL for your Private Portal page.</post_content>
+            <post_title>Login</post_title>
+            <post_excerpt></post_excerpt>
+            <post_type>wp-types-group</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wp_types_group_filters_association>any</_wp_types_group_filters_association>
+                <_wp_types_group_fields>,login-url,</_wp_types_group_fields>
+                <_wp_types_group_post_types>,login,</_wp_types_group_post_types>
+                <_wp_types_group_terms>all</_wp_types_group_terms>
+                <_wp_types_group_admin_styles></_wp_types_group_admin_styles>
+                <_wp_types_group_templates>all</_wp_types_group_templates>
+                <_wpcf_conditional_display>a:2:{s:8:&quot;relation&quot;;s:3:&quot;AND&quot;;s:6:&quot;custom&quot;;s:0:&quot;&quot;;}</_wpcf_conditional_display>
+            </meta>
+            <hash>4c50f9d973e65099121518166faaefd2</hash>
+            <checksum>4c50f9d973e65099121518166faaefd2</checksum>
+            <__types_id>login</__types_id>
+            <__types_title>Login</__types_title>
+        </group>
+        <group>
+            <ID>8</ID>
+            <post_content>Complete the form to create a secure browser tab</post_content>
+            <post_title>Secure Browsers</post_title>
+            <post_excerpt></post_excerpt>
+            <post_type>wp-types-group</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wp_types_group_filters_association>any</_wp_types_group_filters_association>
+                <_wp_types_group_fields>,os-icon,osv,version,note,browserfile,disabled,</_wp_types_group_fields>
+                <_wp_types_group_post_types>,browser,</_wp_types_group_post_types>
+                <_wp_types_group_terms>all</_wp_types_group_terms>
+                <_wp_types_group_admin_styles></_wp_types_group_admin_styles>
+                <_wp_types_group_templates>all</_wp_types_group_templates>
+                <_wpcf_conditional_display>a:2:{s:8:&quot;relation&quot;;s:3:&quot;AND&quot;;s:6:&quot;custom&quot;;s:0:&quot;&quot;;}</_wpcf_conditional_display>
+            </meta>
+            <hash>4189ca0cc7e4b0a2ce0df9aec749a3b3</hash>
+            <checksum>4189ca0cc7e4b0a2ce0df9aec749a3b3</checksum>
+            <__types_id>secure-browsers</__types_id>
+            <__types_title>Secure Browsers</__types_title>
+        </group>
+        <group>
+            <ID>9</ID>
+            <post_content>This is the information needed to create a resource</post_content>
+            <post_title>Resources</post_title>
+            <post_excerpt></post_excerpt>
+            <post_type>wp-types-group</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wp_types_group_filters_association>any</_wp_types_group_filters_association>
+                <_wp_types_group_fields>,rtype,resource,linkedresource,</_wp_types_group_fields>
+                <_wp_types_group_post_types>,resource,</_wp_types_group_post_types>
+                <_wp_types_group_terms>all</_wp_types_group_terms>
+                <_wp_types_group_admin_styles></_wp_types_group_admin_styles>
+                <_wp_types_group_templates>all</_wp_types_group_templates>
+                <_wpcf_conditional_display>a:2:{s:8:&quot;relation&quot;;s:3:&quot;AND&quot;;s:6:&quot;custom&quot;;s:0:&quot;&quot;;}</_wpcf_conditional_display>
+            </meta>
+            <hash>d2a73c5fd3062280bfc989213fd25704</hash>
+            <checksum>d2a73c5fd3062280bfc989213fd25704</checksum>
+            <__types_id>resources</__types_id>
+            <__types_title>Resources</__types_title>
+        </group>
+        <group>
+            <ID>10</ID>
+            <post_content>Fill out this form to create a new card or quick link.</post_content>
+            <post_title>Cards</post_title>
+            <post_excerpt></post_excerpt>
+            <post_type>wp-types-group</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wp_types_group_filters_association>any</_wp_types_group_filters_association>
+                <_wp_types_group_fields>,linktype,ilink,elink,file,card-image,new-tab,disabled,closedmsg,</_wp_types_group_fields>
+                <_wp_types_group_post_types>,card,quicklink,</_wp_types_group_post_types>
+                <_wp_types_group_terms>all</_wp_types_group_terms>
+                <_wp_types_group_admin_styles></_wp_types_group_admin_styles>
+                <_wp_types_group_templates>all</_wp_types_group_templates>
+                <_wpcf_conditional_display>a:2:{s:8:&quot;relation&quot;;s:3:&quot;AND&quot;;s:6:&quot;custom&quot;;s:0:&quot;&quot;;}</_wpcf_conditional_display>
+            </meta>
+            <hash>0d05419b2ed09e496db504d7fbc20bd1</hash>
+            <checksum>0d05419b2ed09e496db504d7fbc20bd1</checksum>
+            <__types_id>cards</__types_id>
+            <__types_title>Cards</__types_title>
+        </group>
+    </groups>
+    <fields>
+        <field>
+            <id>linktype</id>
+            <slug>linktype</slug>
+            <type>radio</type>
+            <name>Link Type</name>
+            <description>Select the option for what you would like this card to link to.</description>
+            <data>
+                <options>
+                    <wpcf-fields-radio-option-5f3368b8c4231034e256a81963b5415d-1>
+                        <title>Internal</title>
+                        <value>Internal</value>
+                        <display_value>1</display_value>
+                    </wpcf-fields-radio-option-5f3368b8c4231034e256a81963b5415d-1>
+                    <wpcf-fields-radio-option-90a6a67c179a09211d1e9b0490f7a923-1>
+                        <title>External</title>
+                        <value>External</value>
+                        <display_value>2</display_value>
+                    </wpcf-fields-radio-option-90a6a67c179a09211d1e9b0490f7a923-1>
+                    <wpcf-fields-radio-option-ab80770b0ae65c8401520f4bd5f599b2-1>
+                        <title>FIle</title>
+                        <value>File</value>
+                        <display_value>3</display_value>
+                    </wpcf-fields-radio-option-ab80770b0ae65c8401520f4bd5f599b2-1>
+                </options>
+                <display>db</display>
+                <validate>
+                    <required>
+                        <active>1</active>
+                        <value>true</value>
+                        <message>This Field is required</message>
+                    </required>
+                </validate>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-linktype</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>linktype</__types_id>
+            <__types_title>Link Type</__types_title>
+            <hash>ae62192755d8b9e968a2af27cd219cc8</hash>
+            <checksum>ae62192755d8b9e968a2af27cd219cc8</checksum>
+        </field>
+        <field>
+            <id>ilink</id>
+            <slug>ilink</slug>
+            <type>select</type>
+            <name>Internal Link</name>
+            <description>Choose the page of this portal you would like to link to.</description>
+            <data>
+                <options>
+                    <wpcf-fields-select-option-513153c203f4912d459d4d35f341788d-1>
+                        <title>Resources</title>
+                        <value>resources</value>
+                    </wpcf-fields-select-option-513153c203f4912d459d4d35f341788d-1>
+                    <wpcf-fields-select-option-75f0b32cb457d736cae93c500d426e6e-1>
+                        <title>Secure Browsers</title>
+                        <value>browsers</value>
+                    </wpcf-fields-select-option-75f0b32cb457d736cae93c500d426e6e-1>
+                    <wpcf-fields-select-option-ca8204bcc14415fec641c8cc3a410d62-1>
+                        <title>Contact US</title>
+                        <value>contact</value>
+                    </wpcf-fields-select-option-ca8204bcc14415fec641c8cc3a410d62-1>
+                    <wpcf-fields-select-option-76468337e4f3a8a6818d0c585fad3b52-1>
+                        <title>Private Resources</title>
+                        <value>private-resources</value>
+                    </wpcf-fields-select-option-76468337e4f3a8a6818d0c585fad3b52-1>
+                </options>
+                <conditional_display>
+                    <conditions>
+                        <condition_65ba1be7712b11d11777cd803cac7794-1>
+                            <field>linktype</field>
+                            <operation>=</operation>
+                            <value>Internal</value>
+                        </condition_65ba1be7712b11d11777cd803cac7794-1>
+                    </conditions>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-ilink</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>ilink</__types_id>
+            <__types_title>Internal Link</__types_title>
+            <hash>22f58c85deb7711de0b4c83dd362240b</hash>
+            <checksum>22f58c85deb7711de0b4c83dd362240b</checksum>
+        </field>
+        <field>
+            <id>elink</id>
+            <slug>elink</slug>
+            <type>url</type>
+            <name>External Link</name>
+            <description>Enter the full URL of the site you would like to link to.</description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <conditions>
+                        <condition_b0251c19d0d6fce2b72148f77003d85b-1>
+                            <field>linktype</field>
+                            <operation>=</operation>
+                            <value>External</value>
+                        </condition_b0251c19d0d6fce2b72148f77003d85b-1>
+                    </conditions>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-elink</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>elink</__types_id>
+            <__types_title>External Link</__types_title>
+            <hash>e588a682a6d6e0a7e1abb334caf1a7b1</hash>
+            <checksum>e588a682a6d6e0a7e1abb334caf1a7b1</checksum>
+        </field>
+        <field>
+            <id>file</id>
+            <slug>file</slug>
+            <type>file</type>
+            <name>File Upload</name>
+            <description>Upload the file you want this card to link to.</description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <conditions>
+                        <condition_50e836f809d08863631b6e6d18da6844-1>
+                            <field>linktype</field>
+                            <operation>=</operation>
+                            <value>3</value>
+                        </condition_50e836f809d08863631b6e6d18da6844-1>
+                    </conditions>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-file</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>file</__types_id>
+            <__types_title>File Upload</__types_title>
+            <hash>dd1b81ce24262bfee6c6b4a6b63df1b9</hash>
+            <checksum>dd1b81ce24262bfee6c6b4a6b63df1b9</checksum>
+        </field>
+        <field>
+            <id>new-tab</id>
+            <slug>new-tab</slug>
+            <type>checkbox</type>
+            <name>New Tab</name>
+            <description>Select if you want this link to open in a new browser tab.</description>
+            <data>
+                <set_value>1</set_value>
+                <save_empty>no</save_empty>
+                <display>db</display>
+                <display_value_not_selected></display_value_not_selected>
+                <display_value_selected></display_value_selected>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-new-tab</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>new-tab</__types_id>
+            <__types_title>New Tab</__types_title>
+            <hash>1e6a7beee5e5e39fab26f1f3d413c9ae</hash>
+            <checksum>1e6a7beee5e5e39fab26f1f3d413c9ae</checksum>
+        </field>
+        <field>
+            <id>card-image</id>
+            <slug>card-image</slug>
+            <type>image</type>
+            <name>Card Image</name>
+            <description>Upload the image you want to have appear on this card or quick link. For a card the image should be 130px by 85px, quick link images should be 48px by 48px</description>
+            <data>
+                <repetitive>0</repetitive>
+                <validate>
+                    <required>
+                        <active>1</active>
+                        <value>true</value>
+                        <message>This Field is required</message>
+                    </required>
+                </validate>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-card-image</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>card-image</__types_id>
+            <__types_title>Card Image</__types_title>
+            <hash>8e65b021c731a1b48e2ce888d2cd9aed</hash>
+            <checksum>8e65b021c731a1b48e2ce888d2cd9aed</checksum>
+        </field>
+        <field>
+            <id>disabled</id>
+            <slug>disabled</slug>
+            <type>checkbox</type>
+            <name>Disable</name>
+            <description>Select if you want this card to be disabled</description>
+            <data>
+                <set_value>disabled</set_value>
+                <save_empty>no</save_empty>
+                <display>value</display>
+                <display_value_not_selected></display_value_not_selected>
+                <display_value_selected>disabled</display_value_selected>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-disabled</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>disabled</__types_id>
+            <__types_title>Disable</__types_title>
+            <hash>ba8cf2a0175eeb052dbc39833224709a</hash>
+            <checksum>ba8cf2a0175eeb052dbc39833224709a</checksum>
+        </field>
+        <field>
+            <id>closedmsg</id>
+            <slug>closedmsg</slug>
+            <type>textfield</type>
+            <name>Disabled Message</name>
+            <description>Enter the message you would like to see appear on the card when it is disabled</description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <conditions>
+                        <condition_62236afd58da37c1ef88f10634af32ff-1>
+                            <field>disabled</field>
+                            <operation>=</operation>
+                            <value>disabled</value>
+                        </condition_62236afd58da37c1ef88f10634af32ff-1>
+                    </conditions>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-closedmsg</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>closedmsg</__types_id>
+            <__types_title>Disabled Message</__types_title>
+            <hash>08d1328b1a117d077e08e79164a926ce</hash>
+            <checksum>08d1328b1a117d077e08e79164a926ce</checksum>
+        </field>
+        <field>
+            <id>rtype</id>
+            <slug>rtype</slug>
+            <type>radio</type>
+            <name>Resource Type</name>
+            <description>Choose what kind of resource this is or if you want it to be marked as coming soon.</description>
+            <data>
+                <options>
+                    <wpcf-fields-radio-option-6b359a0b1def9b7f146d01940de70a77-1>
+                        <title>File</title>
+                        <value>1</value>
+                        <display_value>1</display_value>
+                    </wpcf-fields-radio-option-6b359a0b1def9b7f146d01940de70a77-1>
+                    <wpcf-fields-radio-option-f75b295e5644ba8c031c12e1b55bcac6-1>
+                        <title>Link</title>
+                        <value>2</value>
+                        <display_value>2</display_value>
+                    </wpcf-fields-radio-option-f75b295e5644ba8c031c12e1b55bcac6-1>
+                    <wpcf-fields-radio-option-972703c041aa2badaf233c67b6e5f451-1>
+                        <title>Coming Soon</title>
+                        <value>3</value>
+                        <display_value>3</display_value>
+                    </wpcf-fields-radio-option-972703c041aa2badaf233c67b6e5f451-1>
+                </options>
+                <display>value</display>
+                <validate>
+                    <required>
+                        <active>1</active>
+                        <value>true</value>
+                        <message>This Field is required</message>
+                    </required>
+                </validate>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-rtype</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>rtype</__types_id>
+            <__types_title>Resource Type</__types_title>
+            <hash>1a2a8c7b887aa0703b09556d637560cf</hash>
+            <checksum>1a2a8c7b887aa0703b09556d637560cf</checksum>
+        </field>
+        <field>
+            <id>resource</id>
+            <slug>resource</slug>
+            <type>file</type>
+            <name>Resource File</name>
+            <description></description>
+            <data>
+                <conditional_display>
+                    <conditions>
+                        <condition_a73fcc407fc66dde1f1667618e665abf-1>
+                            <field>rtype</field>
+                            <operation>=</operation>
+                            <value>1</value>
+                        </condition_a73fcc407fc66dde1f1667618e665abf-1>
+                    </conditions>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-resource</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>resource</__types_id>
+            <__types_title>Resource File</__types_title>
+            <hash>2ef49b446b09a1d78c60b2f93cac4733</hash>
+            <checksum>2ef49b446b09a1d78c60b2f93cac4733</checksum>
+        </field>
+        <field>
+            <id>linkedresource</id>
+            <slug>linkedresource</slug>
+            <type>url</type>
+            <name>Resource URL</name>
+            <description></description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <conditions>
+                        <condition_280644986599f76a36d7ee626bd23171-1>
+                            <field>rtype</field>
+                            <operation>=</operation>
+                            <value>2</value>
+                        </condition_280644986599f76a36d7ee626bd23171-1>
+                    </conditions>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-linkedresource</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>linkedresource</__types_id>
+            <__types_title>Resource URL</__types_title>
+            <hash>3b31da96baac47c10eda3e6f6e60f8a5</hash>
+            <checksum>3b31da96baac47c10eda3e6f6e60f8a5</checksum>
+        </field>
+        <field>
+            <description>Choose the operating system this browser is for</description>
+            <data>
+                <options>
+                    <wpcf-fields-radio-option-cd9511bb49a628d3c268c1adc4040de1-1>
+                        <title>Windows</title>
+                        <value>1</value>
+                        <display_value>windows</display_value>
+                    </wpcf-fields-radio-option-cd9511bb49a628d3c268c1adc4040de1-1>
+                    <wpcf-fields-radio-option-c2cfd7f2894aa0f3a1d39c89f4efc7d6-1>
+                        <title>Mac</title>
+                        <value>2</value>
+                        <display_value>mac</display_value>
+                    </wpcf-fields-radio-option-c2cfd7f2894aa0f3a1d39c89f4efc7d6-1>
+                    <wpcf-fields-radio-option-66387a6041f417c005d8631925323640-1>
+                        <title>Linux</title>
+                        <value>3</value>
+                        <display_value>linux</display_value>
+                    </wpcf-fields-radio-option-66387a6041f417c005d8631925323640-1>
+                    <wpcf-fields-radio-option-423df8996df59f89240a404b3f8348aa-1>
+                        <title>Android</title>
+                        <value>4</value>
+                        <display_value>droid</display_value>
+                    </wpcf-fields-radio-option-423df8996df59f89240a404b3f8348aa-1>
+                    <wpcf-fields-radio-option-019157d26f7608b5100be0613eb5b4eb-1>
+                        <title>Chromebook</title>
+                        <value>5</value>
+                        <display_value>chrome</display_value>
+                    </wpcf-fields-radio-option-019157d26f7608b5100be0613eb5b4eb-1>
+                    <wpcf-fields-radio-option-3f1653f95b9667c7896a0d936f7ebbb0-1>
+                        <title>iOS</title>
+                        <value>6</value>
+                        <display_value>ipad</display_value>
+                    </wpcf-fields-radio-option-3f1653f95b9667c7896a0d936f7ebbb0-1>
+                </options>
+                <display>value</display>
+                <validate>
+                    <required>
+                        <active>1</active>
+                        <value>true</value>
+                        <message>This Field is required</message>
+                    </required>
+                </validate>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <id>os-icon</id>
+            <name>Operating System</name>
+            <type>radio</type>
+            <slug>os-icon</slug>
+            <meta_key>wpcf-os-icon</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>os-icon</__types_id>
+            <__types_title>Operating System</__types_title>
+            <hash>64f17c4130eea0d9694d1a15d2597c04</hash>
+            <checksum>64f17c4130eea0d9694d1a15d2597c04</checksum>
+        </field>
+        <field>
+            <description>Enter the versions of the operating system this browser is compatible with.</description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <id>osv</id>
+            <name>OS Version</name>
+            <type>textfield</type>
+            <slug>osv</slug>
+            <meta_key>wpcf-osv</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>osv</__types_id>
+            <__types_title>OS Version</__types_title>
+            <hash>a4186142356e9a7daa9fde9ae0a936d4</hash>
+            <checksum>a4186142356e9a7daa9fde9ae0a936d4</checksum>
+        </field>
+        <field>
+            <description>upload the icon for this version of the secure browser</description>
+            <data>
+                <repetitive>0</repetitive>
+                <validate>
+                    <required>
+                        <active>1</active>
+                        <value>true</value>
+                        <message>This Field is required</message>
+                    </required>
+                </validate>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <id>version</id>
+            <name>Browser Version Icon</name>
+            <type>image</type>
+            <slug>version</slug>
+            <meta_key>wpcf-version</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>version</__types_id>
+            <__types_title>Browser Version Icon</__types_title>
+            <hash>078f8644a8bdf95adfccc1745377756e</hash>
+            <checksum>078f8644a8bdf95adfccc1745377756e</checksum>
+        </field>
+        <field>
+            <description>enter the text to describe this version of the secure browsers and any information a user may need to install it.</description>
+            <data>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <id>note</id>
+            <name>Browser Information</name>
+            <type>wysiwyg</type>
+            <slug>note</slug>
+            <meta_key>wpcf-note</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>note</__types_id>
+            <__types_title>Browser Information</__types_title>
+            <hash>7e78160875745e9629bfc608ec8b693a</hash>
+            <checksum>7e78160875745e9629bfc608ec8b693a</checksum>
+        </field>
+        <field>
+            <description>Upload the secure browser file so users can download it.</description>
+            <data>
+                <repetitive>0</repetitive>
+                <is_new>1</is_new>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <id>browserfile</id>
+            <name>Browser Install File</name>
+            <type>file</type>
+            <slug>browserfile</slug>
+            <meta_key>wpcf-browserfile</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>browserfile</__types_id>
+            <__types_title>Browser Install File</__types_title>
+            <hash>83d83e9d71ac519132faa4acd9470a69</hash>
+            <checksum>83d83e9d71ac519132faa4acd9470a69</checksum>
+        </field>
+        <field>
+            <description></description>
+            <data>
+                <repetitive>0</repetitive>
+                <validate>
+                    <required>
+                        <active>1</active>
+                        <value>true</value>
+                        <message>This Field is required</message>
+                    </required>
+                </validate>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <id>login-url</id>
+            <name>Login URL</name>
+            <type>url</type>
+            <slug>login-url</slug>
+            <meta_key>wpcf-login-url</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>login-url</__types_id>
+            <__types_title>Login URL</__types_title>
+            <hash>14a4bb5bfc7e3e45f65132611ac61bec</hash>
+            <checksum>14a4bb5bfc7e3e45f65132611ac61bec</checksum>
+        </field>
+    </fields>
+    <types>
+        <type>
+            <labels>
+                <name>Cards</name>
+                <singular_name>Card</singular_name>
+                <add_new>Add New</add_new>
+                <add_new_item>Add New %s</add_new_item>
+                <edit_item>Edit %s</edit_item>
+                <new_item>New %s</new_item>
+                <view_item>View %s</view_item>
+                <search_items>Search %s</search_items>
+                <not_found>No %s found</not_found>
+                <not_found_in_trash>No %s found in Trash</not_found_in_trash>
+                <parent_item_colon>Parent text</parent_item_colon>
+                <all_items>All items</all_items>
+            </labels>
+            <slug>card</slug>
+            <description></description>
+            <public>public</public>
+            <menu_position></menu_position>
+            <menu_icon></menu_icon>
+            <supports>
+                <title>1</title>
+            </supports>
+            <rewrite>
+                <enabled>1</enabled>
+                <custom>normal</custom>
+                <slug></slug>
+                <with_front>1</with_front>
+                <feeds>1</feeds>
+                <pages>1</pages>
+            </rewrite>
+            <has_archive>1</has_archive>
+            <show_in_menu>1</show_in_menu>
+            <show_in_menu_page></show_in_menu_page>
+            <show_ui>1</show_ui>
+            <publicly_queryable>1</publicly_queryable>
+            <can_export>1</can_export>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <query_var_enabled>1</query_var_enabled>
+            <query_var></query_var>
+            <permalink_epmask>EP_PERMALINK</permalink_epmask>
+            <id>card</id>
+            <__types_id>card</__types_id>
+            <__types_title>Cards</__types_title>
+            <hash>71e3c220f3d52860fb77bde78d3190eb</hash>
+            <checksum>71e3c220f3d52860fb77bde78d3190eb</checksum>
+            <taxonomies>
+                <secure>1</secure>
+            </taxonomies>
+        </type>
+        <type>
+            <labels>
+                <name>Quick Links</name>
+                <singular_name>Quick Link</singular_name>
+                <add_new>Add New</add_new>
+                <add_new_item>Add New %s</add_new_item>
+                <edit_item>Edit %s</edit_item>
+                <new_item>New %s</new_item>
+                <view_item>View %s</view_item>
+                <search_items>Search %s</search_items>
+                <not_found>No %s found</not_found>
+                <not_found_in_trash>No %s found in Trash</not_found_in_trash>
+                <parent_item_colon>Parent text</parent_item_colon>
+                <all_items>All items</all_items>
+            </labels>
+            <slug>quicklink</slug>
+            <description>Links down the right side of the home page</description>
+            <public>public</public>
+            <menu_position></menu_position>
+            <menu_icon></menu_icon>
+            <supports>
+                <title>1</title>
+            </supports>
+            <rewrite>
+                <enabled>1</enabled>
+                <custom>normal</custom>
+                <slug></slug>
+                <with_front>1</with_front>
+                <feeds>1</feeds>
+                <pages>1</pages>
+            </rewrite>
+            <has_archive>1</has_archive>
+            <show_in_menu>1</show_in_menu>
+            <show_in_menu_page></show_in_menu_page>
+            <show_ui>1</show_ui>
+            <publicly_queryable>1</publicly_queryable>
+            <can_export>1</can_export>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <query_var_enabled>1</query_var_enabled>
+            <query_var></query_var>
+            <permalink_epmask>EP_PERMALINK</permalink_epmask>
+            <id>quicklink</id>
+            <__types_id>quicklink</__types_id>
+            <__types_title>Quick Links</__types_title>
+            <hash>8a9edee12bda21509b5b364c26624d0b</hash>
+            <checksum>8a9edee12bda21509b5b364c26624d0b</checksum>
+            <taxonomies>
+                <secure>1</secure>
+            </taxonomies>
+        </type>
+        <type>
+            <labels>
+                <name>Announcements</name>
+                <singular_name>Announcement</singular_name>
+                <add_new>Add New</add_new>
+                <add_new_item>Add New %s</add_new_item>
+                <edit_item>Edit %s</edit_item>
+                <new_item>New %s</new_item>
+                <view_item>View %s</view_item>
+                <search_items>Search %s</search_items>
+                <not_found>No %s found</not_found>
+                <not_found_in_trash>No %s found in Trash</not_found_in_trash>
+                <parent_item_colon>Parent text</parent_item_colon>
+                <all_items>All items</all_items>
+            </labels>
+            <slug>announcement</slug>
+            <description></description>
+            <public>public</public>
+            <menu_position></menu_position>
+            <menu_icon></menu_icon>
+            <supports>
+                <title>1</title>
+                <editor>1</editor>
+            </supports>
+            <rewrite>
+                <enabled>1</enabled>
+                <custom>normal</custom>
+                <slug></slug>
+                <with_front>1</with_front>
+                <feeds>1</feeds>
+                <pages>1</pages>
+            </rewrite>
+            <has_archive>1</has_archive>
+            <show_in_menu>1</show_in_menu>
+            <show_in_menu_page></show_in_menu_page>
+            <show_ui>1</show_ui>
+            <publicly_queryable>1</publicly_queryable>
+            <can_export>1</can_export>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <query_var_enabled>1</query_var_enabled>
+            <query_var></query_var>
+            <permalink_epmask>EP_PERMALINK</permalink_epmask>
+            <id>announcement</id>
+            <__types_id>announcement</__types_id>
+            <__types_title>Announcements</__types_title>
+            <hash>304268d3517984cb105f1df20dcd907e</hash>
+            <checksum>304268d3517984cb105f1df20dcd907e</checksum>
+            <taxonomies>
+                <secure>1</secure>
+            </taxonomies>
+        </type>
+        <type>
+            <labels>
+                <name>Messages</name>
+                <singular_name>Message</singular_name>
+                <add_new>Add New</add_new>
+                <add_new_item>Add New %s</add_new_item>
+                <edit_item>Edit %s</edit_item>
+                <new_item>New %s</new_item>
+                <view_item>View %s</view_item>
+                <search_items>Search %s</search_items>
+                <not_found>No %s found</not_found>
+                <not_found_in_trash>No %s found in Trash</not_found_in_trash>
+                <parent_item_colon>Parent text</parent_item_colon>
+                <all_items>All items</all_items>
+            </labels>
+            <slug>message</slug>
+            <description>Introductory text on the home page.</description>
+            <public>public</public>
+            <menu_position></menu_position>
+            <menu_icon></menu_icon>
+            <supports>
+                <title>1</title>
+                <editor>1</editor>
+            </supports>
+            <rewrite>
+                <enabled>1</enabled>
+                <custom>normal</custom>
+                <slug></slug>
+                <with_front>1</with_front>
+                <feeds>1</feeds>
+                <pages>1</pages>
+            </rewrite>
+            <has_archive>1</has_archive>
+            <show_in_menu>1</show_in_menu>
+            <show_in_menu_page></show_in_menu_page>
+            <show_ui>1</show_ui>
+            <publicly_queryable>1</publicly_queryable>
+            <can_export>1</can_export>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <query_var_enabled>1</query_var_enabled>
+            <query_var></query_var>
+            <permalink_epmask>EP_PERMALINK</permalink_epmask>
+            <id>message</id>
+            <__types_id>message</__types_id>
+            <__types_title>Messages</__types_title>
+            <hash>dc5d81eed0d339e466f810931daf53e4</hash>
+            <checksum>dc5d81eed0d339e466f810931daf53e4</checksum>
+            <taxonomies>
+                <secure>1</secure>
+            </taxonomies>
+        </type>
+        <type>
+            <wpcf-post-type>resource</wpcf-post-type>
+            <labels>
+                <name>Resources</name>
+                <singular_name>Resource</singular_name>
+                <add_new>Add New</add_new>
+                <add_new_item>Add New %s</add_new_item>
+                <edit_item>Edit %s</edit_item>
+                <new_item>New %s</new_item>
+                <view_item>View %s</view_item>
+                <search_items>Search %s</search_items>
+                <not_found>No %s found</not_found>
+                <not_found_in_trash>No %s found in Trash</not_found_in_trash>
+                <parent_item_colon>Parent text</parent_item_colon>
+                <all_items>All items</all_items>
+            </labels>
+            <slug>resource</slug>
+            <description></description>
+            <public>public</public>
+            <menu_position></menu_position>
+            <menu_icon></menu_icon>
+            <taxonomies>
+                <resource-group>1</resource-group>
+                <secure>1</secure>
+                <private-resource-group>1</private-resource-group>
+            </taxonomies>
+            <supports>
+                <title>1</title>
+                <editor>1</editor>
+            </supports>
+            <rewrite>
+                <enabled>1</enabled>
+                <custom>normal</custom>
+                <slug></slug>
+                <with_front>1</with_front>
+                <feeds>1</feeds>
+                <pages>1</pages>
+            </rewrite>
+            <has_archive>1</has_archive>
+            <show_in_menu>1</show_in_menu>
+            <show_in_menu_page></show_in_menu_page>
+            <show_ui>1</show_ui>
+            <publicly_queryable>1</publicly_queryable>
+            <can_export>1</can_export>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <query_var_enabled>1</query_var_enabled>
+            <query_var></query_var>
+            <permalink_epmask>EP_PERMALINK</permalink_epmask>
+            <id>resource</id>
+            <__types_id>resource</__types_id>
+            <__types_title>Resources</__types_title>
+            <hash>ab8b2f4d0cc21d17e4cadf9d7ad868e8</hash>
+            <checksum>ab8b2f4d0cc21d17e4cadf9d7ad868e8</checksum>
+        </type>
+        <type>
+            <labels>
+                <name>Secure Browsers</name>
+                <singular_name>Secure Browser</singular_name>
+                <add_new>Add New</add_new>
+                <add_new_item>Add New %s</add_new_item>
+                <edit_item>Edit %s</edit_item>
+                <new_item>New %s</new_item>
+                <view_item>View %s</view_item>
+                <search_items>Search %s</search_items>
+                <not_found>No %s found</not_found>
+                <not_found_in_trash>No %s found in Trash</not_found_in_trash>
+                <parent_item_colon>Parent text</parent_item_colon>
+                <all_items>All items</all_items>
+            </labels>
+            <slug>browser</slug>
+            <description></description>
+            <public>public</public>
+            <menu_position></menu_position>
+            <menu_icon></menu_icon>
+            <supports>
+                <title>1</title>
+            </supports>
+            <rewrite>
+                <enabled>1</enabled>
+                <custom>normal</custom>
+                <slug></slug>
+                <with_front>1</with_front>
+                <feeds>1</feeds>
+                <pages>1</pages>
+            </rewrite>
+            <has_archive>1</has_archive>
+            <show_in_menu>1</show_in_menu>
+            <show_in_menu_page></show_in_menu_page>
+            <show_ui>1</show_ui>
+            <publicly_queryable>1</publicly_queryable>
+            <can_export>1</can_export>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <query_var_enabled>1</query_var_enabled>
+            <query_var></query_var>
+            <permalink_epmask>EP_PERMALINK</permalink_epmask>
+            <id>browser</id>
+            <__types_id>browser</__types_id>
+            <__types_title>Secure Browsers</__types_title>
+            <hash>679eb403ba7adc2709a09f1a97fd9e62</hash>
+            <checksum>679eb403ba7adc2709a09f1a97fd9e62</checksum>
+        </type>
+        <type>
+            <labels>
+                <name>Browser Information</name>
+                <singular_name>Browser Info</singular_name>
+                <add_new>Add New</add_new>
+                <add_new_item>Add New %s</add_new_item>
+                <edit_item>Edit %s</edit_item>
+                <new_item>New %s</new_item>
+                <view_item>View %s</view_item>
+                <search_items>Search %s</search_items>
+                <not_found>No %s found</not_found>
+                <not_found_in_trash>No %s found in Trash</not_found_in_trash>
+                <parent_item_colon>Parent text</parent_item_colon>
+                <all_items>All items</all_items>
+            </labels>
+            <slug>browserinfo</slug>
+            <description></description>
+            <public>public</public>
+            <menu_position></menu_position>
+            <menu_icon></menu_icon>
+            <supports>
+                <title>1</title>
+                <editor>1</editor>
+            </supports>
+            <rewrite>
+                <enabled>1</enabled>
+                <custom>normal</custom>
+                <slug></slug>
+                <with_front>1</with_front>
+                <feeds>1</feeds>
+                <pages>1</pages>
+            </rewrite>
+            <has_archive>1</has_archive>
+            <show_in_menu>1</show_in_menu>
+            <show_in_menu_page></show_in_menu_page>
+            <show_ui>1</show_ui>
+            <publicly_queryable>1</publicly_queryable>
+            <can_export>1</can_export>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <query_var_enabled>1</query_var_enabled>
+            <query_var></query_var>
+            <permalink_epmask>EP_PERMALINK</permalink_epmask>
+            <id>browserinfo</id>
+            <__types_id>browserinfo</__types_id>
+            <__types_title>Browser Information</__types_title>
+            <hash>964d7474d333f85d7f43897066812eb9</hash>
+            <checksum>964d7474d333f85d7f43897066812eb9</checksum>
+        </type>
+    </types>
+    <post_relationships>
+        <post_relationship>a:1:{s:8:&quot;resource&quot;;a:0:{}}</post_relationship>
+    </post_relationships>
+    <taxonomies>
+        <taxonomy>
+            <labels>
+                <name>Resource Groups</name>
+                <singular_name>Resource Group</singular_name>
+                <search_items>Search %s</search_items>
+                <popular_items>Popular %s</popular_items>
+                <all_items>All %s</all_items>
+                <parent_item>Parent %s</parent_item>
+                <parent_item_colon>Parent %s:</parent_item_colon>
+                <edit_item>Edit %s</edit_item>
+                <update_item>Update %s</update_item>
+                <add_new_item>Add New %s</add_new_item>
+                <new_item_name>New %s Name</new_item_name>
+                <separate_items_with_commas>Separate %s with commas</separate_items_with_commas>
+                <add_or_remove_items>Add or remove %s</add_or_remove_items>
+                <choose_from_most_used>Choose from the most used %s</choose_from_most_used>
+                <menu_name>%s</menu_name>
+            </labels>
+            <slug>resource-group</slug>
+            <description>You may create different groups to organize your resources</description>
+            <public>public</public>
+            <supports>
+                <resource>1</resource>
+            </supports>
+            <hierarchical>hierarchical</hierarchical>
+            <rewrite>
+                <enabled>1</enabled>
+                <slug></slug>
+                <with_front>1</with_front>
+                <hierarchical>1</hierarchical>
+            </rewrite>
+            <show_ui>1</show_ui>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <show_tagcloud>1</show_tagcloud>
+            <query_var_enabled>1</query_var_enabled>
+            <query_var></query_var>
+            <update_count_callback></update_count_callback>
+            <id>resource-group</id>
+            <__types_id>resource-group</__types_id>
+            <__types_title>Resource Groups</__types_title>
+            <checksum>eede90273e84bc5ac5c0a664515e47ba</checksum>
+        </taxonomy>
+        <taxonomy>
+            <labels>
+                <name>Security</name>
+                <singular_name>Secure</singular_name>
+                <search_items>Search %s</search_items>
+                <popular_items>Popular %s</popular_items>
+                <all_items>All %s</all_items>
+                <parent_item>Parent %s</parent_item>
+                <parent_item_colon>Parent %s:</parent_item_colon>
+                <edit_item>Edit %s</edit_item>
+                <update_item>Update %s</update_item>
+                <add_new_item>Add New %s</add_new_item>
+                <new_item_name>New %s Name</new_item_name>
+                <separate_items_with_commas>Separate %s with commas</separate_items_with_commas>
+                <add_or_remove_items>Add or remove %s</add_or_remove_items>
+                <choose_from_most_used>Choose from the most used %s</choose_from_most_used>
+                <menu_name>%s</menu_name>
+            </labels>
+            <slug>secure</slug>
+            <description></description>
+            <public>public</public>
+            <supports>
+                <card>1</card>
+                <quicklink>1</quicklink>
+                <announcement>1</announcement>
+                <message>1</message>
+                <resource>1</resource>
+            </supports>
+            <hierarchical>hierarchical</hierarchical>
+            <rewrite>
+                <enabled>1</enabled>
+                <slug></slug>
+                <with_front>1</with_front>
+                <hierarchical>1</hierarchical>
+            </rewrite>
+            <show_ui>1</show_ui>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <show_tagcloud>1</show_tagcloud>
+            <query_var_enabled>1</query_var_enabled>
+            <query_var></query_var>
+            <update_count_callback></update_count_callback>
+            <id>secure</id>
+            <__types_id>secure</__types_id>
+            <__types_title>Security</__types_title>
+            <checksum>f81c88317e35d784f2c4301fc0dd378a</checksum>
+        </taxonomy>
+        <taxonomy>
+            <labels>
+                <name>Private Resource Groups</name>
+                <singular_name>Private Resource Group</singular_name>
+                <search_items>Search %s</search_items>
+                <popular_items>Popular %s</popular_items>
+                <all_items>All %s</all_items>
+                <parent_item>Parent %s</parent_item>
+                <parent_item_colon>Parent %s:</parent_item_colon>
+                <edit_item>Edit %s</edit_item>
+                <update_item>Update %s</update_item>
+                <add_new_item>Add New %s</add_new_item>
+                <new_item_name>New %s Name</new_item_name>
+                <separate_items_with_commas>Separate %s with commas</separate_items_with_commas>
+                <add_or_remove_items>Add or remove %s</add_or_remove_items>
+                <choose_from_most_used>Choose from the most used %s</choose_from_most_used>
+                <menu_name>%s</menu_name>
+            </labels>
+            <slug>private-resource-group</slug>
+            <description></description>
+            <public>public</public>
+            <supports>
+                <resource>1</resource>
+            </supports>
+            <hierarchical>hierarchical</hierarchical>
+            <rewrite>
+                <enabled>1</enabled>
+                <slug></slug>
+                <with_front>1</with_front>
+                <hierarchical>1</hierarchical>
+            </rewrite>
+            <show_ui>1</show_ui>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <show_tagcloud>1</show_tagcloud>
+            <query_var_enabled>1</query_var_enabled>
+            <query_var></query_var>
+            <update_count_callback></update_count_callback>
+            <id>private-resource-group</id>
+            <__types_id>private-resource-group</__types_id>
+            <__types_title>Private Resource Groups</__types_title>
+            <checksum>6117ac06d9a0b46ee508a07c88f106fd</checksum>
+        </taxonomy>
+    </taxonomies>
+</types>

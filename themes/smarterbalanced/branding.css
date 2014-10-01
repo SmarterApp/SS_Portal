@@ -1,0 +1,149 @@
+/*This Portal acts as the gateway to accessing your Assessment Systems.
+Copyright (C) 2014 American Institutes for Research
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.*/
+/* CSS Document for Custom Branding */
+
+
+/*-------------Header--------------*/
+	.header .roots{
+		background-color: #DBDCE0;
+		color: #5A5A5A;
+	}
+	.header .roots a{
+		color:#5a5a5a;
+	}
+/*--Home Page--*/
+	.wrapper .cardArea h2{
+		color:#18567E;
+	}
+	.wrapper .cardArea .cardBox{
+		background-color:#006298;
+		color:#fff;
+		border-color:#999;
+	}
+
+	.wrapper .cardArea .cardBox:hover{
+		background-color:#04384e;
+	}
+	
+	.wrapper .cardArea .cardBox a{
+		color:#fff;
+	}
+	.wrapper .welcomeMessage{
+		color: #5A5A5A;
+	}
+	.wrapper .welcomeMessage h2{
+		color: #18577E;
+	}
+	.wrapper .quickLinks .quickLink{
+		background-color:#1C5A94;
+		color: #FFFFFF;
+	}
+	.wrapper .quickLinks .quickLink:hover{
+		background-color:#04384e;
+	}
+	.wrapper .quickLinks .quickLink .title{
+		border-right-color:#FFFFFF;
+		color: #FFFFFF;
+	}
+	.wrapper .quickLinks .quickLink.sblink .title{
+		border-top-color:#fff;
+	}
+/*--announcements--*/
+	.announcements{
+		color: #5A5A5A;
+	}
+	.announcements .date{
+		color:#a4a4a4;
+	}
+	.border{
+		border-bottom-color:#DBDCE0;
+	}
+	.archivedAnnouncements h2{
+		color: #18577e;
+	}	
+/*--Page--*/
+	.wrapper.page h2{
+		color: #18577e;
+	}
+/*--Resources--*/
+	.resourcesWrapper h3{
+		color: #5A5A5A;
+	}
+	.resourcesWrapper table th{
+		background-color:#93969C;
+		color:#fff;
+		border-color:#C1C4CA;
+	}
+	.resourcesWrapper table td{
+		border-color:#C1C4CA;
+		color: #5A5A5A;
+	}
+	
+/*-------Browsers---------*/
+	.browserPage h2{
+		color: #18577E;
+	}
+	.browserPage .intro{
+		color: #5A5A5A;
+	}
+	.browserPage .intro h3{
+		border-bottom-color: #DBDBDB;
+	}
+	.bDownloads{
+		border-color: #DBDCE0;
+	}
+	.btabs li{
+		border-color: #DBDCE0;
+		color: #000000;
+		background-color:#EFEFEF;
+	}
+	.btabs li:hover{
+		background-color:#19587F;
+		color:#fff;
+	}
+	.btabs li.active{
+		background-color:#fff;
+		border-right-color:#fff;
+		font-weight:bold;
+	}
+	.btabs li.active:hover{
+		color:#000;
+	}
+	.browser h1 {
+		color: #5A5A5A;
+	}
+	.browser .bSection a .download div{
+		color:#18577E;
+	}
+	.browser .bSection a .download span{
+		color:#999;
+	}
+	.browser .bSection a:hover .download div{
+		color:#24326C;
+	}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+
+.wrapper .quickLinks {float:left;}
+.wrapper .quickLinks .quickLink {
+  background-color: #1C5A94;
+  color: #FFFFFF;
+}
+}
