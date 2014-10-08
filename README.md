@@ -1,5 +1,5 @@
 # Welcome to Portal #
-The SmarterApp Portal has two basic functions. For non-logged-in users, it provides generic information regarding Smarter Balanced assessments, including links to download the Secure Browser. For logged-in users, the portal provides links to only the components for which the logged-in user has permissions, in the private pages. Some links may also be available on public-facing pages - but those are left to the discretion of the deploying entities. Portal's main features include:
+The [SmarterApp](http://smarterapp.org) Portal has two basic functions. For non-logged-in users, it provides generic information regarding Smarter Balanced assessments, including links to download the Secure Browser. For logged-in users, the portal provides links to only the components for which the logged-in user has permissions, in the private pages. Some links may also be available on public-facing pages - but those are left to the discretion of the deploying entities. Portal's main features include:
 
 * SSO Integration
 * Private and Public pages
@@ -11,7 +11,7 @@ This project is licensed under the [GPLv2](http://www.gnu.org/licenses/gpl-2.0.h
 ## Getting Involved ##
 We would be happy to receive feedback on its capabilities, problems, or future enhancements:
 
-* For general questions or discussions, please use the [Forum](forum_link_here).
+* For general questions or discussions, please use the [Forum](http://forum.opentestsystem.org/viewforum.php?f=5).
 * Use the **Issues** link to file bugs or enhancement requests.
 * Feel free to **Fork** this project and develop your changes!
 
@@ -28,7 +28,7 @@ Portal logged-in user functionality is dependent on the following SmarterApp com
 ## Setup
 
 1. Install Wordpress on a Linux box (Ubuntu Linux 12.04+ recommended)
-1. Configure Wordpress according to the instructions provided at *XXXXXXXXXXX*
+1. Configure Wordpress according to the instructions provided in the `Documentation` folder.
 1. Log in to the WP admin interface as WP Admin and install the SAML 2.0 plugin code from this Portal repository, not the official [saml-20-single-sign-on](https://wordpress.org/plugins/saml-20-single-sign-on/) plugin.
 
 ### Configuring Permissions Component
