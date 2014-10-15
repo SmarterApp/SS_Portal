@@ -64,8 +64,8 @@ Repeat the above for each component that needs to be accessible from Portal.
 1. Log into the portal as WP Admin
 1. Go to /var/www/wordpress/wp-content/plugins and rename saml-20-single-sign-on- back to saml-20-single-sign-on
 1. In the WP admin console, go to Settings -> Single Sign-On, and navigate to the Identity Provider tab. 
-1. In the first URL box (IdP URL) enter the IdP config URL (e.g. https://oam-secure.ci.opentestsystem.org/auth/saml2/jsp/exportmetadata.jsp?realm=/sbac) and click "Fetch Metadata," then Update Options if all looks correct.
-1. Log inmto the associated OpenAM instance, go to Federation tab, and add Entity. Enter the WP SP URL (e.g. http://portal.ci.opentestsystem.org/wp-content/plugins/saml-20-single-sign-on/saml/www/module.php/saml/sp/metadata.php/1), save.
+1. In the first URL box (IdP URL) enter the IdP config URL (e.g. https://your.openam.domain/auth/saml2/jsp/exportmetadata.jsp?realm=/sbac) and click "Fetch Metadata," then Update Options if all looks correct.
+1. Log in to the associated OpenAM instance, go to Federation tab, and add Entity. Enter the WP SP URL (e.g. http://portal.your.portal.domain/wp-content/plugins/saml-20-single-sign-on/saml/www/module.php/saml/sp/metadata.php/1), save.
 1. Click on the realm (e.g., sbac) and add the newly added SP to the Circle of Trust.
 1. Provision a new user in your SSO system using the Administration and Registration Tools (ART) component named portal.agent@example.com, with a Role of *Portal Agent* at the *Client* level.
 
