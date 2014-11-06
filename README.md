@@ -72,6 +72,6 @@ Repeat the above for each component that needs to be accessible from Portal.
 ### Portal Backend Service Configuration
 Several services need to run on Portal in order to integrate with SSO, Program Management, and Permissions.
 
-1. Copy dump_component_mapping.pl to /usr/local/bin/dump_component_mapping.pl
+1. Copy dump_component_mapping.pl to /usr/local/bin/dump_component_mapping.pl (be sure to update the URLs within this script to match your environment)
 1. Copy dump_component_mapping.sh to /usr/local/bin/dump_component_mapping.sh
 1. Install a crontab for root to execute /usr/local/bin/dump_component_mapping.sh periodically - for example, once or twice daily.
