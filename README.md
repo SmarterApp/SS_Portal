@@ -31,12 +31,15 @@ Portal logged-in user functionality is dependent on the following SmarterApp com
 1. Configure Wordpress according to the instructions provided in the `Documentation` folder.
 1. Log in to the WP admin interface as WP Admin and install the SAML 2.0 plugin code from this Portal repository, not the official [saml-20-single-sign-on](https://wordpress.org/plugins/saml-20-single-sign-on/) plugin.
 
-### Configuring Permissions Component
-1. Create an entry for every component under "Manage Components."
-1. Create a Role called Portal Agent, with tenancy at every level of the hierarchy. 
-1. There is no need to assign permissions to components or map roles to permissions.
+### Configuring the Permissions Component
+1. Create an entry for every component under "Manage Components".
+1. Portal makes API calls to both Program Management [R2] and Permissions [R3]. Program Management consumes roles directly, and they are aligned with specific permissions. The role required for obtaining Program Management information is **Program Management Read**, which is aligned with the Progman Read permission. 
+1. There is no need to assign new permissions to the Portal components.
 
-### Configuring Program Management Component
+### Creating the Portal User in ART
+Create a new user in ART [R9] for Portal’s backend processing. The user must have the **Program Management Read** role, assigned at the highest available hierarchy level.
+
+### Configuring the Program Management Component
 1. Create an entry for each component being served by Portal. **The “component names” in Program Management must exactly match the component names in Permissions app.**  
 1. Create a configuration for Portal containing a set of properties. Program Management properties need to be set for proper functioning of the logged-in portion of the Portal. Sample Portal properties may be found at [config/portal-progman-config.txt]. What follows is an explanation of each Program Management key/value pair.
 
