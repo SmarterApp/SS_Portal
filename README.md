@@ -1,5 +1,5 @@
 # Welcome to Portal #
-The [SmarterApp](http://smarterapp.org) Portal has two basic functions. For non-logged-in users, it provides generic information regarding Smarter Balanced assessments, including links to download the Secure Browser. For logged-in users, the portal provides links to only the components for which the logged-in user has permissions, in the private pages. Some links may also be available on public-facing pages - but those are left to the discretion of the deploying entities. Portal's main features include:
+The Smarter Balanced Portal has two basic functions. For non-logged-in users, it provides generic information regarding Smarter Balanced assessments, including links to download the Secure Browser. For logged-in users, the portal provides links to only the components for which the logged-in user has permissions, in the private pages. Some links may also be available on public-facing pages - but those are left to the discretion of the deploying entities. Portal's main features include:
 
 * SSO Integration
 * Private and Public pages
